@@ -7,5 +7,8 @@ public class Main1 {
         int b = 0;
         System.out.println("Hello");
         int c = 0;
+        int e = 0;
+
+
     }
 }
