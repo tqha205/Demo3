@@ -25,12 +25,13 @@ public class BFS_SToE {
     }
 
     public static void main(String[] args) throws IOException {
-        System.out.println("Hello");System.out.println("Hello");
+        System.out.println("Hello");
         System.setIn(Files.newInputStream(Paths.get("./src/Study/BFS_SToE.txt")));
         bf = new BufferedReader(new InputStreamReader(System.in));
 
         int totalTc = Integer.parseInt(bf.readLine());
         for (int tc = 1; tc <= totalTc; tc++) {
+            System.out.println("Hello");
             init();
             bfs();
             System.out.println("#" + tc + " " + (distance[endR][endC] - 1));
