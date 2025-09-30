@@ -5,5 +5,8 @@ public class Main1 {
         int a = 0;
         int b = 0;
         System.out.println("Hello");
+        
+        int c = 0;
+        int d = 0;
     }
 }
