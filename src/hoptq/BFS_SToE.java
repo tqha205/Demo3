@@ -25,6 +25,7 @@ public class BFS_SToE {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Hello");System.out.println("Hello");
         System.setIn(Files.newInputStream(Paths.get("./src/Study/BFS_SToE.txt")));
         bf = new BufferedReader(new InputStreamReader(System.in));
 
